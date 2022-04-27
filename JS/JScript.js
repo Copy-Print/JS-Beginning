@@ -20,9 +20,9 @@ alert (message);
 
 // Короткая записать присвоения переменной
 let message = 'Bye',
-    name = 'John',
+    user = 'John',
     age = '31';
-alert(name);
+alert(user);
 alert(age);
 alert(message);
 
@@ -32,3 +32,14 @@ let test;
 test = 'chicken';
 test = 'rabbit';
 alert(test);
+
+// Строка с обратныеми ковычками
+
+let name = "Валерчик";
+alert(`Добрый день, ${name}!`);
+alert(`Добрый день, число ${3+5}!`);
+
+// Булевый(логический) тип данных true/false
+
+let isGreater = 4>3;
+alert(isGreater);
