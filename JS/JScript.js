@@ -1,14 +1,5 @@
-// Преобразование типов
-// Из строки в boolean
-
-let match = "хуй";
-alert(typeof match);
-
-match = String("Украина");
-alert(typeof match);
-
-// из строки в Number
-let ext = "привет";
-
-tex = Boolean(ext);
-alert(typeof tex);
+let year = prompt("В каком году родился Валерчик?", "");
+if (year == 2015) {
+    alert( "Правильно!" );
+    alert( "Вы такой умный!" );
+  }
