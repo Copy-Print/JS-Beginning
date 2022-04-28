@@ -41,5 +41,21 @@ alert(`Добрый день, число ${3+5}!`);
 
 // Булевый(логический) тип данных true/false
 
-let isGreater = 4>3;
+let isGreater = 4 > 3;
 alert(isGreater);
+
+// Функция prompt
+
+let howOld = prompt('Сколько Вам годиков?');
+alert(`Получается, что тебе ${howOld} лет`);
+
+// Функция comfirm
+
+let question = confirm('Правда, что у тебя есть грыжа L5?');
+alert(`Так как ты отвеил - ${question}. Значит это место и будем лечить`);
+
+
+// Преобразование типов
+
+let value = true;
+alert(typeof value);
