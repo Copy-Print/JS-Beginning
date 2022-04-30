@@ -41,7 +41,7 @@ let message = (login == 'Сотрудник') ? 'Привет' :
     (login == '') ? 'Нет логина' :
     '';
  */
-let hobby = prompt("Какое твоё хобби?", "");
+/* let hobby = prompt("Какое твоё хобби?", "");
 
 let message = (hobby == "Дота") ? "Отлично, это супер хобби" :
     "Ну... так себе хобби";
@@ -64,3 +64,40 @@ if (time < 9 || time > 18 ) {
 else {
     alert("Магазин работает");
 }
+ */
+
+/* let trick = prompt("Ты сегодня утром ходил в душ?", "");
+if (trick === "да"){
+    alert(!true);
+} */
+
+/* let UserName = prompt("Введите логин", "");
+
+if (UserName === "Админ") {
+    let password = prompt("Введите пароль", "");
+    if (password === "Я главный") {
+        alert("Здравствуйте, господин");
+    } else if (password === "" || password === null) {
+        alert("Отменено");
+    } else {
+        alert("Неверный пароль!");
+    }
+} else if (UserName === "" || UserName === null) {
+    alert("Отменено");
+} else {
+    alert("Я Вас не знаю");
+}
+
+Напишите условие if для проверки, что значение переменной age НЕ находится в диапазоне 14 и 90 включительно.
+
+if (!(age >= 14 && age <= 90))
+
+Напишите два варианта: первый с использованием оператора НЕ !, второй – без этого оператора.
+
+if (age < 14 || age > 14) */
+
+let UserName = prompt("Введи Юзернейм", "");
+let NickName = prompt("Введи Никнейм", "");
+let FirstName = prompt("Введи своё Имя", "");
+
+alert(UserName ?? NickName ?? FirstName);
