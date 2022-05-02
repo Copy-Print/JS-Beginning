@@ -1,103 +1,75 @@
 'use strict'
 
-/* let age = prompt("Сколько тебе лет, уважаемый?", "");
+/* let UserName = "Серёжка"
 
-let message = (age == null) ? "Всё-таки перезагрузи страницу и укажи возраст!" :
-    (age == "") ? "Всё-таки перезагрузи страницу и укажи возраст!" :
-    (age < 3) ? "Здравствуй, малыш!" :
-    (age < 18) ? "Привет!" :
-    (age < 100) ? "Здравствуйте!":
-    "Всё-таки нужно ввести";
-
-alert(message); */
-
-
-/* let TheNameJS = prompt("Какое официальное название JS", "");
-
-if (TheNameJS == "ECMAScript") {
-    alert("Правильно!");
-} else {
-    alert("Неправильно");
-}
-
-
-
-let value = prompt('Введите число', 0);
-
-if (value > 0) {
-    alert(1);
-} else if (value < 0) {
-    alert(-1);
-} else {
-    alert(0);
-}
-
-let result;
-
-if (a + b < 4) ? "Мало" : "Много";
-
-let message = (login == 'Сотрудник') ? 'Привет' :
-    (login == 'Директор') ? 'Здравствуйте' :
-    (login == '') ? 'Нет логина' :
-    '';
- */
-/* let hobby = prompt("Какое твоё хобби?", "");
-
-let message = (hobby == "Дота") ? "Отлично, это супер хобби" :
-    "Ну... так себе хобби";
-alert(message);
-
-let game = prompt("Какое твоё хобби?", "");
-
-if (game == "Дота"){
-    alert("Отлично, это супер хобби");
-} 
-    else {
-        alert("Ну... так себе хобби");
-}
-
-let time = prompt("Сколько сейчас часов, или может сегодня выходной","");
-
-if (time < 9 || time > 18 ) {
-    alert("Магазин закрыт");
-}
-else {
-    alert("Магазин работает");
-}
- */
-
-/* let trick = prompt("Ты сегодня утром ходил в душ?", "");
-if (trick === "да"){
-    alert(!true);
+if (UserName === "Серёжка"){
+    document.write("Hello, "+UserName);
 } */
 
-/* let UserName = prompt("Введите логин", "");
+/* let UserAge = 20
 
-if (UserName === "Админ") {
-    let password = prompt("Введите пароль", "");
-    if (password === "Я главный") {
-        alert("Здравствуйте, господин");
-    } else if (password === "" || password === null) {
-        alert("Отменено");
-    } else {
-        alert("Неверный пароль!");
-    }
-} else if (UserName === "" || UserName === null) {
-    alert("Отменено");
-} else {
-    alert("Я Вас не знаю");
+while (UserAge < 25){
+    alert("You are too young, man!")
+}UserAge++ */
+
+/* let UserAge = prompt("Сколько Вам лет?","");
+
+let Age = Number(UserAge);
+
+alert(typeof Age); */
+
+/* switch(UserAge){
+    case 15:
+        alert("Значит Вы в 10 классе");
+    break;
+    case 16:
+        alert("Значит Вы в 11 классе");
+    break;
+    default:
+        alert("Не удаётся выяснить в каком Вы классе!")
+    break;
+} */
+
+/* switch (browser) {
+    case 'Edge':
+      alert( "You've got the Edge!" );
+      break;
+  
+    case 'Chrome':
+    case 'Firefox':
+    case 'Safari':
+    case 'Opera':
+      alert( 'Okay we support these browsers too' );
+      break;
+  
+    default:
+      alert( 'We hope that this page looks ok!' );
+  }
+
+
+  if (browser = "Edge"){
+      alert("You've got the Edge!")
+  }
+  else if (browser = Chrome || browser = Firefox || browser = Safari || browser = Opera){
+      alert("Okay we support these browsers too")
+  }
+  else{
+    alert( 'We hope that this page looks ok!' );
+  } */
+
+const number = +prompt('Введите число между 0 и 3', '');
+
+switch (number){
+    case 0:
+        alert('Вы ввели число 0');
+    break;
+
+    case 1:
+        alert('Вы ввели число 1');
+    break;
+
+    case 2:
+    case 3:
+        alert('Вы ввели число 2, а может и 3');
+    break;
 }
-
-Напишите условие if для проверки, что значение переменной age НЕ находится в диапазоне 14 и 90 включительно.
-
-if (!(age >= 14 && age <= 90))
-
-Напишите два варианта: первый с использованием оператора НЕ !, второй – без этого оператора.
-
-if (age < 14 || age > 14) */
-
-let UserName = prompt("Введи Юзернейм", "");
-let NickName = prompt("Введи Никнейм", "");
-let FirstName = prompt("Введи своё Имя", "");
-
-alert(UserName ?? NickName ?? FirstName);
