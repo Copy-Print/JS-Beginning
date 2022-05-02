@@ -57,7 +57,7 @@ alert(typeof Age); */
     alert( 'We hope that this page looks ok!' );
   } */
 
-const number = +prompt('Введите число между 0 и 3', '');
+/* const number = +prompt('Введите число между 0 и 3', '');
 
 switch (number){
     case 0:
@@ -72,4 +72,49 @@ switch (number){
     case 3:
         alert('Вы ввели число 2, а может и 3');
     break;
+} */
+
+/* function theAppeal (from, text = "Хэллоу!"){
+        from = "*" + from + "*";
+       alert(from + ": " + text);
 }
+
+let from = "Вася";
+
+theAppeal(from); */
+
+/* function sum(a, b){
+    return a * b;
+}
+
+let resault = sum(135, 167);
+alert(resault);
+
+
+ */
+
+/* function checkAge(age) {
+  
+    return (age > 18) ? true : confirm('Родители разрешили?');
+
+    return (age > 18) || confirm('Родители разрешили?');
+  
+}
+
+function min(a, b){
+    if (a > b){
+        return b;
+    }else 
+        return a;
+}
+  */
+
+
+/* function pow(x, n) {
+    let multiple = (n > 1 && Number.isInteger(n)) ? x * n : false;
+           
+    return multiple;
+}
+
+alert(pow(56, 67)); */
+
