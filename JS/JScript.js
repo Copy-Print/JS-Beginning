@@ -118,3 +118,27 @@ function min(a, b){
 
 alert(pow(56, 67)); */
 
+
+
+/* function tellTheName(tell, sirName){
+    return tell + sirName;
+}
+let tell = prompt("Напиши приветствие", "");
+let sirName8 = prompt("Напиши своё имя", "");
+
+alert(tellTheName(tell, sirName));
+
+
+ */
+
+/* let x = +prompt("Сколько тебе лет", "");
+
+let y = x > 10 ? "Взрослый уже" : alert("Не достаточно взрослый")
+    
+ */
+
+let sayHi = function(){
+    alert("Привет!");
+}
+
+alert( sayHi );
